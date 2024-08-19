@@ -13,7 +13,7 @@ namespace Yash
         [MenuItem("Tools/Setup/Create Default Folders")]
         public static void CreateDefaultFolders()
         {
-            CreateDirectories("_Project", "Scripts", "Art", "Scenes");
+            CreateDirectories("_Project", "Scripts", "Art", "Scenes","ScriptableObjects");
             Refresh();
         }
 
