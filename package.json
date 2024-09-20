@@ -2,5 +2,10 @@
   "name": "com.joker_yash96.unitytools",
   "version": "0.0.1-preview",
   "displayName": "Unity Tools",
-  "description": "Tools to import with Fresh Unity Project"
+  "description": "Tools to import with Fresh Unity Project",
+   "author": {
+    "name": "Yash Vakil",
+    "email": "yashvakil96@gmail.com",
+    "url": "https://github.com/YashVakil96"
+  }
 }
