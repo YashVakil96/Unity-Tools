@@ -6,6 +6,8 @@ using UnityEngine;
 using System.Collections;
 using Object = UnityEngine.Object;
 
+#if UNITY_EDITOR
+
 public class InspectorLockToggle
 {
     private static EditorWindow _mouseOverWindow;
@@ -54,3 +56,4 @@ public class InspectorLockToggle
         type.GetMethod("Clear").Invoke(null, null);
     }
 }
+#endif 
