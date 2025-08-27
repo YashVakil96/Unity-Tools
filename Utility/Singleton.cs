@@ -7,6 +7,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+namespace YashVakil96.UnityTools.Patterns
+{
 public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T _instance;
@@ -120,4 +122,6 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         _applicationQuitting = true;
     }
+}    
 }
+
